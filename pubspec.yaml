@@ -1,0 +1,26 @@
+name: kid_learning
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  get_storage:
+  google_fonts: ^5.0.0
+  video_player: ^2.6.1
+  just_audio: ^0.9.34
+  animated_splash_screen: ^1.3.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
